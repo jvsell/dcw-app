@@ -1,4 +1,4 @@
-Um aplicativo em react que trás as statisticas do covid.
+Um aplicativo em react que será utilizado durante o DevOps Cloud Week.
 
 ## Installation
 - git clone https://github.com/sambreen27/covid19.git
@@ -9,7 +9,7 @@ Um aplicativo em react que trás as statisticas do covid.
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## COVID-19 API - Test
+## COVID-19 API - Test  - DevOps Cloud Week
 
 GET https://covid19.mathdro.id/api -> global cases information
 
