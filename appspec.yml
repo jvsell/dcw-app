@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+hooks:
+  AfterInstall:
+    - location: Scripts/stop-container.sh
+  ApplicationStart:
+    - location: Scripts/start-container.sh
