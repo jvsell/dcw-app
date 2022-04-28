@@ -16,7 +16,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate }}) => {
                 <Grid container spacing={2} justify="center">
                     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
                         <CardContent>
-                            <Typography variant = "h5" color = "textPrimary" gutterBottom>Infectados</Typography>
+                            <Typography variant = "h5" color = "textPrimary" gutterBottom>Infectados Novo</Typography>
                             <Typography variant = "h5">
                             <CountUp start={0} end={confirmed.value} duration={2.5} separator="," />
                             </Typography>
@@ -26,7 +26,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate }}) => {
                     </Grid>
                     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recovered)}>
                         <CardContent>
-                            <Typography variant = "h5" color = "textPrimary" gutterBottom>Recuperados</Typography>
+                            <Typography variant = "h5" color = "textPrimary" gutterBottom>Recuperados Novo</Typography>
                             <Typography variant = "h5">
                                 <CountUp start={0} end={recovered.value} duration={2.5} separator="," />
                             </Typography>
@@ -36,7 +36,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate }}) => {
                     </Grid>
                     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.deaths)}>
                         <CardContent>
-                            <Typography variant = "h5" color = "secondary" gutterBottom> Mortes</Typography>
+                            <Typography variant = "h5" color = "secondary" gutterBottom>Mortes Novo</Typography>
                             <Typography variant = "h5">
                                 <CountUp start={0} end={deaths.value} duration={2.5} separator="," />
                             </Typography>
