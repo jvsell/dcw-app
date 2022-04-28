@@ -16,32 +16,32 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate }}) => {
                 <Grid container spacing={2} justify="center">
                     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)}>
                         <CardContent>
-                            <Typography variant = "h5" color = "textPrimary" gutterBottom>Aula 4</Typography>
+                            <Typography variant = "h5" color = "textPrimary" gutterBottom>#RumoAoTopo</Typography>
                             <Typography variant = "h5">
                             <CountUp start={0} end={confirmed.value} duration={2.5} separator="," />
                             </Typography>
                             <Typography color = "initial"> {new Date(lastUpdate).toDateString()}</Typography>
-                            <Typography color = "textPrimary" variant = "body2"> Numero de casos ativos</Typography>
+                            <Typography color = "textPrimary" variant = "body2"> #RumoAoTopo</Typography>
                         </CardContent>
                     </Grid>
                     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recovered)}>
                         <CardContent>
-                            <Typography variant = "h5" color = "textPrimary" gutterBottom>Titulo 2</Typography>
+                            <Typography variant = "h5" color = "textPrimary" gutterBottom>#RumoAoTopo</Typography>
                             <Typography variant = "h5">
                                 <CountUp start={0} end={recovered.value} duration={2.5} separator="," />
                             </Typography>
                             <Typography color = "inherit"> {new Date(lastUpdate).toDateString()}</Typography>
-                            <Typography variant = "body2"> Numero de casos Recuperados</Typography>
+                            <Typography variant = "body2"> #RumoAoTopo</Typography>
                         </CardContent>
                     </Grid>
                     <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.deaths)}>
                         <CardContent>
-                            <Typography variant = "h5" color = "secondary" gutterBottom>Titulo 3</Typography>
+                            <Typography variant = "h5" color = "secondary" gutterBottom>#RumoAoTopo</Typography>
                             <Typography variant = "h5">
                                 <CountUp start={0} end={deaths.value} duration={2.5} separator="," />
                             </Typography>
                             <Typography color = "inherit"> {new Date(lastUpdate).toDateString()}</Typography>
-                            <Typography color = "secondary" variant = "body2"> Numero de mortos</Typography>
+                            <Typography color = "secondary" variant = "body2"> #RumoAoTopo</Typography>
                         </CardContent>
                     </Grid>
                 </Grid>
