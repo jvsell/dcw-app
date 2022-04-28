@@ -1,4 +1,4 @@
-Um aplicativo em react que será utilizado durante o DevOps Cloud Week.
+Um aplicativo em react que será utilizado durante o DevOps Cloud Week 4.
 
 ## Installation
 - git clone https://github.com/sambreen27/covid19.git
