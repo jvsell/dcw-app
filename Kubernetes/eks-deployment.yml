@@ -20,4 +20,3 @@ spec:
         name: app-eks-demo
         ports:
         - containerPort: 3000
-          hostport: 80
