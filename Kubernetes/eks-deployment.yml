@@ -19,4 +19,5 @@ spec:
         imagePullPolicy: Always
         name: app-eks-demo
         ports:
-        - containerPort: 80
+        - containerPort: 3000
+        - hostport: 80
