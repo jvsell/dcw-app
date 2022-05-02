@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: dcw-namespace
+  namespace: default
   name: deployment-eks-demo
 spec:
   selector:
