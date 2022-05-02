@@ -5,9 +5,9 @@ metadata:
   namespace: default
   name: dcw-app
 spec:
-#  selector:
-#    matchLabels:
-#      app.kubernetes.io/name: app-eks-demo
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: app-eks-demo
   replicas: 2
   template:
     metadata:
@@ -19,4 +19,4 @@ spec:
         imagePullPolicy: Always
         name: app-eks-demo
         ports:
-        - containerPort: 80
+        - containerPort: 3000
