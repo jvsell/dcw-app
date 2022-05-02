@@ -3,11 +3,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   namespace: default
-  name: deployment-eks-demo
+  name: dcw-app
 spec:
-  selector:
-    matchLabels:
-      app.kubernetes.io/name: app-eks-demo
+#  selector:
+#    matchLabels:
+#      app.kubernetes.io/name: app-eks-demo
   replicas: 2
   template:
     metadata:
