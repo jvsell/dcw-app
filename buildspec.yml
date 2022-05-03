@@ -3,8 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Logando no Docker Hub
-      - docker login --username $DOCKERHUB_USERNAME --password $DOCKERHUB_PASS
       - echo Logging in to Amazon ECR...
       - $(aws ecr get-login --no-include-email --region $AWS_REGION)
       - curl -sS -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/aws-iam-authenticator
